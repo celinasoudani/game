@@ -1,0 +1,73 @@
+
+
+body {
+    background: url("https://img.freepik.com/free-vector/winter-background-christmas-snowflake-illustration-vector_53876-154346.jpg?t=st=1731470211~exp=1731473811~hmac=947053a1590637968f5c1510e364bef208d762220e8f6ecadba2ff7543e1fbd5&w=1800");
+    background-size: cover;
+    font-family:"Times New Roman", Times, serif;
+    text-align: center;
+}
+
+#popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+  z-index: 1000;
+  
+  
+}
+
+#popup h2 {
+  margin: 0 0 10px;
+}
+
+#popup button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#popup button:hover {
+  background-color: #45a049;
+}
+
+ 
+h1{
+  color:#036f3e;
+}
+
+#board {
+    height: 590px;
+    width: 620px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+    border: 10px solid #036f3e;
+}
+
+.card {
+    height: 142px;
+    width: 150px;
+    margin: 2.5px;
+}
+
+.music {
+  padding: 2px 5px;
+  margin: 8px;
+}
+
+#timer {
+    font-size: 24px;
+    color: black;
+    text-align: center;
+  margin: 8px;
+}
+
